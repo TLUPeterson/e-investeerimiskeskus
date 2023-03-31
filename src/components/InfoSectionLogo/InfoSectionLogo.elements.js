@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const InfoSec = styled.div`
     color: #fff;
-    padding: 20px 0;
+    padding: 80px 0;
     background: ${({lightBg}) => (lightBg ? '#fff' : '#101522')};
 `
 
@@ -71,10 +71,11 @@ export const TopLine = styled.div`
 export const Img = styled.img`
   padding-right: 0;
   border: 0;
-  max-width: 100%;
+  max-width: 200%;
   vertical-align: middle;
   display: inline-block;
-  max-height: 500px;
+  max-height: 700px;
+  padding-bottom: 200px;
 `;
 
 export const Heading = styled.h1`

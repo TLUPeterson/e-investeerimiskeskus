@@ -34,8 +34,10 @@ const handleSubmit = (e) => {
 };
 
   return (
-    <>
-      <div id="contact" style={{backgroundColor: "#101522", paddingTop: "200px"}}>
+    
+    <div style={{backgroundColor: '#101522', display: 'flex', flexDirection: 'row', alignItems: 'flex-start'}}>
+
+      <div id="contact" style={{backgroundColor: "#101522", paddingTop: "200px", maxWidth: "90vh", paddingLeft:'50px'}} >
         <div className="container">
           <div className="column">
             <div className="row">
@@ -118,7 +120,8 @@ const handleSubmit = (e) => {
           </div>
         </div>
       </div>
-    </>
+      <img src={'Mail.svg'} style={{maxWidth:'700px', paddingTop: '', paddingLeft:'200px', paddingTop:'75px'}}/>
+    </div>
   );
 }
 
