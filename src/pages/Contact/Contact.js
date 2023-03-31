@@ -3,6 +3,7 @@ import { useState } from "react";
 import { InfoSection } from '../../components';
 import { homeObjOne } from './Data';
 import emailjs from '@emailjs/browser';
+import { Button } from '../../globalStyles';
 
 const initialState = {
   name: "",
@@ -88,9 +89,9 @@ const handleSubmit = (e) => {
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg ">
+                <Button type="submit" >
                   Send Message
-                </button>
+                </Button>
               </form>
             </div>
           </div>
