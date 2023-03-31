@@ -64,9 +64,9 @@ function Navbar() {
             <Nav>
                 <NavbarContainer>
                     <NavLogo to='/'> 
-                        <img alt='Logo' style={{maxHeight: '10vh'}} src='images/investlogomin.svg'></img>
+                        {/* <img alt='Logo' style={{maxHeight: '8vh'}} src='images/investlogomin.svg'></img> */}
                         {/* <NavIcon /> */}
-                            INVESTEERIMISKESKUS
+                            Eesti Investeerimiskeskus
                     </NavLogo>
                     <HamburgerIcon onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}
@@ -79,20 +79,20 @@ function Navbar() {
                         </NavItem>
                     
                     
-                        <NavItem onClick={handleServicesClick} servicesClick={servicesClick}>
+                        {/* <NavItem onClick={handleServicesClick} servicesClick={servicesClick}>
                             <NavLinks to='/services' onClick={closeMobileMenu}>
                                 Teenused
                             </NavLinks>
-                        </NavItem>
+                        </NavItem> */}
                     
 
                         <NavItemBtn >
                             {button ? (
-                                <NavBtnLink to='/sign-up'>
+                                <NavBtnLink to='/contact'>
                                     <Button primary>Kontakt</Button>
                                 </NavBtnLink>
                             ) : (
-                                <NavBtnLink to='/sign-up'>
+                                <NavBtnLink to='/contact'>
                                     <Button onClick={closeMobileMenu} fontBig primary>SIGN UP</Button>
                                 </NavBtnLink>
                             )}

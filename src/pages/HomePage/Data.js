@@ -4,14 +4,14 @@ export const homeObjOne = {
     lightTopLine: true,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Eesti investeerimiskeskus',
-    headline: 'nibh sed pulvinar proin gravida',
+    topLine: '',
+    headline: 'Kinnisvara ost, müük ja vahetus',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Kui te soovite osta, müüa või vahetada kinnisvara, siis olete õiges kohas. Meie kogemus ja teadmised aitavad teil leida just teile sobivaim lahendus.',
     buttonLabel: 'sapien',
     imgStart: '',
-    img: 'images/investlogofull.svg',
-    style: {paddingBottom: '200px'},
+    img: 'poere2.png',
+    style: {paddingBottom: '200px', maxWidth: '200%'},
     alt: 'lorem ipsum',
     start: ''
   };
@@ -22,13 +22,13 @@ export const homeObjOne = {
     lightTopLine: true,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Meist',
-    headline: 'nibh sed pulvinar proin gravida',
+    topLine: '',
+    headline: 'Teeme teile kinnisvara müügi või ostu lihtsaks',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Kinnisvara vahetuse protsess on lihtne ja kiire. Võtke meiega ühendust ning meie juhatame teid läbi kogu protsessi.',
     buttonLabel: 'sapien',
-    imgStart: '',
-    img: 'images/svg-2.svg',
+    imgStart: 'start',
+    img: 'logotest3.svg',
     alt: 'Vault',
     start: ''
   };

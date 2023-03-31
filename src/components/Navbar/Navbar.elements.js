@@ -25,12 +25,17 @@ export const NavbarContainer = styled(Container)`
 
 export const NavLogo = styled(Link)`
     color: #fff;
-    justify-self: flex-start;
+    justify-self: flex-end;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: flex;
+    justify-content: center;
     align-items: center;
+
+    &:hover {
+        color: #feb300;
+    }
 `
 
 export const NavIcon = styled(FaMagento)`
@@ -99,7 +104,9 @@ export const NavLinks = styled(Link)`
     padding: 0.5rem 1rem;
     height: 100%;
     
-
+    &:hover {
+        color: #feb300;
+    }
     @media screen and (max-width: 960px) {
         text-align: center;
         padding: 2rem;
@@ -107,7 +114,7 @@ export const NavLinks = styled(Link)`
         display: table;
 
         &:hover {
-            color: #4b59f7;
+            color: #feb300;
             transition: all 0.3s ease;
         }
     }
