@@ -88,38 +88,15 @@ const handleSubmit = (e) => {
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
+                <button type="submit" className="btn btn-custom btn-lg ">
                   Send Message
                 </button>
               </form>
             </div>
           </div>
-          <div className="col-md-3 col-md-offset-1 contact-info">
-            <div className="contact-item">
-              <h3>Contact Info</h3>
-              <p>
-                <span>
-                  <i className="fa fa-map-marker"></i> Address
-                </span>
-              </p>
-            </div>
-            <div className="contact-item">
-              <p>
-                <span>
-                  <i className="fa fa-phone"></i> Phone
-                </span>{" "}
-              </p>
-            </div>
-            <div className="contact-item">
-              <p>
-                <span>
-                  <i className="fa fa-envelope-o"></i> Email
-                </span>{" "}
-              </p>
-            </div>
-          </div>
         </div>
       </div>
+
       <img src={'Mail.svg'} style={{maxWidth:'700px', paddingTop: '', paddingLeft:'200px', paddingTop:'75px'}}/>
     </div>
   );
