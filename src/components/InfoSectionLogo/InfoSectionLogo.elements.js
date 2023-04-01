@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 
 export const InfoSec = styled.div`
-    color: #fff;
-    padding: 80px 0;
-    background: ${({lightBg}) => (lightBg ? '#fff' : '#101522')};
+  padding-top: 10vh;  
+  color: #fff;
+  background: ${({lightBg}) => (lightBg ? '#fff' : '#101522')};
 `
 
 export const InfoRow = styled.div`
@@ -71,11 +71,10 @@ export const TopLine = styled.div`
 export const Img = styled.img`
   padding-right: 0;
   border: 0;
-  max-width: 200%;
+  max-width: 60vh;
   vertical-align: middle;
   display: inline-block;
-  max-height: 700px;
-  padding-bottom: 200px;
+  padding-bottom: 5vh;
 `;
 
 export const Heading = styled.h1`

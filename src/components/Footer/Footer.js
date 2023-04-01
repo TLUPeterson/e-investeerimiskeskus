@@ -56,46 +56,45 @@ function Footer() {
             <FooterLinkTitle>Meie lehel</FooterLinkTitle>
             <FooterLink to='/'>Avaleht</FooterLink>
             <FooterLink to='/contact'>Kontakt</FooterLink>
-            {/* <FooterLink to='/'>Destinations</FooterLink>
-            <FooterLink to='/'>Sponsorships</FooterLink> */}
+
           </FooterLinkItems>
         </FooterLinksWrapper>
+        <FooterLinkItems>
+            <FooterLinkTitle>Teave</FooterLinkTitle>
+            <FooterLink to='/'>Reg. nr. 16688180</FooterLink>
+            <FooterLink to='/'>IBAN: EE502200221081247030</FooterLink>
+            <FooterLink to='/'>SWIFT: HABAEE2X</FooterLink>
+          </FooterLinkItems>
         <FooterLinksWrapper>
           <FooterLinkItems>
             <FooterLinkTitle>Kontakt</FooterLinkTitle>
-            <FooterLink to='/'>+372 123 456</FooterLink>
-            <FooterLink to='/'>Aadress</FooterLink>
-            <FooterLink to='/'>info@eestiinvesteerimiskeskus.ee</FooterLink>
+            <FooterLink to='/'>Nr1: +372 56 352 952  </FooterLink>
+            <FooterLink to='/'>Nr2: +372 53 230 888  </FooterLink>
+            <FooterLink to='/'>eesti.investeerimiskeskus@gmail.com</FooterLink>
+            <FooterLink to='/'>info@e-investeerimiskeskus.ee</FooterLink>
           </FooterLinkItems>
-          {/* <FooterLinkItems>
-            <FooterLinkTitle>Social Media</FooterLinkTitle>
-            <FooterLink to='/'>Instagram</FooterLink>
-            <FooterLink to='/'>Facebook</FooterLink>
-            <FooterLink to='/'>Youtube</FooterLink>
-            <FooterLink to='/'>Twitter</FooterLink>
-          </FooterLinkItems> */}
         </FooterLinksWrapper>
       </FooterLinksContainer>
       <SocialMedia>
         <SocialMediaWrap>
 
-          <WebsiteRights>Eesti Investeerimiskeskus © {date.getFullYear()} </WebsiteRights>
+          <WebsiteRights>Eesti Investeerimiskeskus OÜ © {date.getFullYear()} </WebsiteRights>
           <SocialIcons>
-            <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+            <SocialIconLink href='https://www.facebook.com/profile.php?id=100090454841097' target='_blank' aria-label='Facebook'>
               <FaFacebook />
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+            <SocialIconLink href='https://www.instagram.com/investeerimiskeskus/' target='_blank' aria-label='Instagram'>
               <FaInstagram />
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='YouTube' >
+            {/* <SocialIconLink href='/' target='_blank' aria-label='YouTube' >
               <FaYoutube />
-            </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
+            </SocialIconLink> */}
+            {/* <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
               <FaTwitter />
-            </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'>
+            </SocialIconLink> */}
+            {/* <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'>
               <FaLinkedin />
-            </SocialIconLink>
+            </SocialIconLink> */}
           </SocialIcons>
         </SocialMediaWrap>
       </SocialMedia>

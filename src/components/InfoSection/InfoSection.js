@@ -4,7 +4,7 @@ import { Container, Button } from '../../globalStyles'
 import { Link } from 'react-router-dom'
 
  const InfoSection = ({ 
-    
+    id,
     primary,
     lightBg,
     topLine,
@@ -21,7 +21,7 @@ import { Link } from 'react-router-dom'
 }) => {
     return (
         <>
-            <InfoSec lightBg={lightBg}>
+            <InfoSec lightBg={lightBg} id={id}>
                 <Container>
                     <InfoRow imgStart={imgStart}>
                         <InfoColumn>
@@ -30,9 +30,9 @@ import { Link } from 'react-router-dom'
                             <Heading lightText={lightText}>{headline}</Heading>
                             <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
                             <Link to='/contact'>
-                            <Button big fontBig primary={primary}>
-                                {buttonLabel}
-                            </Button>
+                                <Button big fontBig primary={primary}>
+                                    {buttonLabel}
+                                </Button>
                             </Link>
                             </TextWrapper>
                         </InfoColumn>

@@ -4,7 +4,7 @@ import { Container, Button } from '../../globalStyles'
 import { Link } from 'react-router-dom'
 
 const InfoSectionLogo = ({ 
-    
+    id,
     primary,
     lightBg,
     topLine,
@@ -21,7 +21,7 @@ const InfoSectionLogo = ({
 }) => {
     return (
         <>
-            <InfoSec lightBg={lightBg}>
+            <InfoSec lightBg={lightBg} id={id}>
                 <Container>
                     <InfoRow imgStart={imgStart}>
                         <InfoColumn>
