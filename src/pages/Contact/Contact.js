@@ -54,7 +54,7 @@ const handleSubmit = (e) => {
                         id="name"
                         name="name"
                         className="form-control"
-                        placeholder="Name"
+                        placeholder="Nimi"
                         required
                         onChange={handleChange}
                       />
@@ -89,7 +89,7 @@ const handleSubmit = (e) => {
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
-                <Button type="submit" >
+                <Button type="Saada" >
                   Send Message
                 </Button>
               </form>

@@ -34,7 +34,7 @@ import './Detailed.css';
                             
                             <Heading lightText={lightText}>Tutvustus</Heading>
                             <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-
+ 
                             </TextWrapper>
                         </InfoColumn>
                         <InfoColumn>

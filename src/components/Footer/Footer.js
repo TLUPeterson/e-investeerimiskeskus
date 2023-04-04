@@ -56,6 +56,7 @@ function Footer() {
             <FooterLinkTitle>Meie lehel</FooterLinkTitle>
             <FooterLink to='/'>Avaleht</FooterLink>
             <FooterLink to='/contact'>Kontakt</FooterLink>
+            <FooterLink to='/detailed'>Tutvustus</FooterLink>
 
           </FooterLinkItems>
         </FooterLinksWrapper>

@@ -1,7 +1,7 @@
 export const homeObjOne = {
     id: "home",
     primary: true,
-    linkto: '/contact',
+    linkto: '/detailed',
     lightBg: false,
     lightTopLine: true,
     lightText: true,
@@ -10,7 +10,7 @@ export const homeObjOne = {
     headline: 'Tere Tulemast Eesti Investeerimiskeskusesse',
     description:
       'Aitame maaomanikel saada parimat tulu oma kinnistu majandamisel või müügil. Aitame ostjatel oma äri kasvatada ja võimaldame neil tegeleda oma põhitegevusega, olgu selleks metsa- või põllumajandus.',
-    buttonLabel: 'Kirjuta meile',
+    buttonLabel: 'Loe tutvustust',
     imgStart: '',
     img: 'poere22.png',
     alt: 'Investeerimise logo',
