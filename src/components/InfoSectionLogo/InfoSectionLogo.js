@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom'
 const InfoSectionLogo = ({ 
     id,
     primary,
+    linkto,
     lightBg,
     topLine,
     lightTopLine,
@@ -31,7 +32,7 @@ const InfoSectionLogo = ({
                             <Heading lightText={lightText}></Heading>
                             <Heading lightText={lightText}> Investeerimiskeskusesse</Heading>
                             <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                            <Link to='/contact'>
+                            <Link to={linkto}>
                             <Button big fontBig primary={primary}>
                                 {buttonLabel}
                             </Button>
