@@ -5,7 +5,7 @@ export const InfoSec = styled.div`
 
     color: #fff;
     padding: 20px 0;
-    padding-top: 20vh;
+    padding-top: 10vh;
     padding-bottom: 20vh;
     background: ${({lightBg}) => (lightBg ? '#fff' : '#101522')};
 `

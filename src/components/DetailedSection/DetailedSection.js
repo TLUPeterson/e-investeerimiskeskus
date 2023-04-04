@@ -27,7 +27,24 @@ import './Detailed.css';
             <InfoSec lightBg={lightBg} id={id}>
                 <Container>
 
-                <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
+
+                <InfoRow imgStart={imgStart}>
+                        <InfoColumn>
+                            <TextWrapper>
+                            
+                            <Heading lightText={lightText}>Tutvustus</Heading>
+                            <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
+
+                            </TextWrapper>
+                        </InfoColumn>
+                        <InfoColumn>
+                        <ImgWrapper start={start}>
+                            <Img src={img} alt={alt} style={{paddingBottom: "1.5vh"}}/>
+                        </ImgWrapper>
+                        </InfoColumn>
+                    </InfoRow>
+
+                <TopLine style={{paddingTop: '4vh'}} lightTopLine={lightTopLine}>{topLine}</TopLine>
                         <Accordion id="Accordion" defaultActiveKey="-1" flush >
                                 <Accordion.Item eventKey="0">
                                     <Accordion.Header>Millega me tegeleme?</Accordion.Header>
