@@ -7,7 +7,7 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: '',
-    headline: 'Kinnisvara ost, müük ja vahetus',
+    headline: 'Tere Tulemast Eesti Investeerimiskeskusesse',
     description:
       'Aitame maaomanikel saada parimat tulu oma kinnistu majandamisel või müügil. Aitame ostjatel oma äri kasvatada ja võimaldame neil tegeleda oma põhitegevusega, olgu selleks metsa- või põllumajandus.',
     buttonLabel: 'Kirjuta meile',

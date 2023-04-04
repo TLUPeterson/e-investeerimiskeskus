@@ -22,5 +22,5 @@
 .accordion-item{
   border: none;
   background-color: #101522;
-  --bs-accordion-border-color: #feb300;
+  --bs-accordion-border-color: #101522;
 }
