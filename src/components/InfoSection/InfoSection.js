@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
     id,
     primary,
     lightBg,
+    linkto,
     topLine,
     lightTopLine,
     lightText,
@@ -29,7 +30,7 @@ import { Link } from 'react-router-dom'
                             <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                             <Heading lightText={lightText}>{headline}</Heading>
                             <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                            <Link to='/contact'>
+                            <Link to={linkto}>
                                 <Button big fontBig primary={primary}>
                                     {buttonLabel}
                                 </Button>

@@ -7,13 +7,8 @@ import Products from './pages/Products/Products';
 import Services from './pages/Services/Services'
 import ScrollToTop from './components/ScrollToTop';
 import Contact from './pages/Contact/Contact'
-/*
-import SmoothScroll from 'smooth-scroll';
+import Detailed from './pages/Detailed/Detailed'
 
-export const scroll = new SmoothScroll('a[href*="#"]', {
-  speed: 1000,
-  speedAsDuration: true,
-});*/
 
 function App() {
 
@@ -25,8 +20,9 @@ function App() {
           <Navbar />
           <Switch>
             <Route path='/' exact component={Home} />
-            <Route path='/services' exact component={Services} />
+            {/* <Route path='/services' exact component={Services} /> */}
             <Route path='/contact' exact component={Contact} />
+            <Route path='/detailed' exact component={Detailed} />
             {/* <Route path='/products' component={Products} /> */}
           </Switch>
           <Footer />

@@ -1,6 +1,7 @@
 export const homeObjOne = {
     id: "home",
     primary: true,
+    linkto: '/contact',
     lightBg: false,
     lightTopLine: true,
     lightText: true,
@@ -9,7 +10,7 @@ export const homeObjOne = {
     headline: 'Kinnisvara ost, müük ja vahetus',
     description:
       'Aitame maaomanikel saada parimat tulu oma kinnistu majandamisel või müügil. Aitame ostjatel oma äri kasvatada ja võimaldame neil tegeleda oma põhitegevusega, olgu selleks metsa- või põllumajandus.',
-    buttonLabel: '',
+    buttonLabel: 'Kirjuta meile',
     imgStart: '',
     img: 'poere22.png',
     alt: 'Investeerimise logo',
@@ -20,17 +21,16 @@ export const homeObjOne = {
   export const homeObjTwo = {
     id: "desc",
     primary: true,
+    linkto: '/detailed',
     lightBg: false,
     lightTopLine: true,
     lightText: true,
     lightTextDesc: true,
     topLine: '',
     headline: 'Teeme teile kinnisvara müügi või ostu lihtsaks',
-    description:`Investeerimiskeskus on ettevõte, mille eesmärk on muuta Eesti maatulundusmaade turg läbipaistvaks, kliendi jaoks mugavaks ja kasumlikuks seda eelkõige maaomanikele kui ka valdkonnas tegutsevatele ettevõtjatele. Me tahame, et metsatehingud oleksid ausad ja raied korralikult teostatud. Iga metsaomanik peab saama oma metsa eest hinda, mida seal kasvav loodusvara ka tegelikult väärt on. See saab sündida aga ainult siis, kui Sinu, metsaomaniku, eest toimetavad vastutustundlikult majandavad metsaettevõtted.
-    Meie ettevõtte suureks plussiks võib lugeda seda, et me võtame personaalse lähenemise igale kinnistule, igale maaomanikule ja igale ostusooviga ettevõtjale.
-    Kui ka Sina tahad, et metsatehingud toimuksid ausalt, võta ühendust meie metsaspetsialistidega. Sinuga koos saame teha metsatehinguid õigesti.
+    description:`Investeerimiskeskus on ettevõte, mille eesmärk on muuta Eesti maatulundusmaade turg läbipaistvaks, kliendi jaoks mugavaks ja kasumlikuks. Pakume oma teenust eelkõige maaomanikele, kuid ka valdkonnas tegutsevatele ettevõtjatele. 
         `,
-    buttonLabel: 'Kirjuta meile',
+    buttonLabel: 'Loe lähemalt',
     imgStart: 'start',
     img: 'logotest3.svg',
     alt: 'Vault',
@@ -40,6 +40,7 @@ export const homeObjOne = {
   export const homeObjThree = {
     id: "about",
     primary: true,
+    linkto: '/contact',
     lightBg: true,
     lightTopLine: false,
     lightText: false,

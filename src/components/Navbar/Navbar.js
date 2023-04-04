@@ -159,20 +159,10 @@ function Navbar() {
                         </NavItem>
                         <NavItem onClick={handleHomeClick} homeClick={homeClick}>
                             <NavLinks to='/' onClick={(e)=>{closeMobileMenu;;}}>
-                                                        
                                 Meist
                             </NavLinks>
                         </NavItem>
-                        
                     
-                    
-                        {/* <NavItem onClick={handleServicesClick} servicesClick={servicesClick}>
-                            <NavLinks to='/services' onClick={closeMobileMenu}>
-                                Teenused
-                            </NavLinks>
-                        </NavItem> */}
-                    
-
                         <NavItemBtn >
                             {button ? (
                                 <NavBtnLink to='/contact'>

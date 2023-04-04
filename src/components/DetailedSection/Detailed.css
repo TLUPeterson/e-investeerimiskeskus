@@ -1,0 +1,26 @@
+#Accordion {
+  --bs-accordion-bg: #101522;
+  padding-top:0px;
+  --bs-accordion-color: #fff;
+  --bs-accordion-active-bg: #101522;
+  --bs-accordion-active-color: #fff;  
+
+}
+
+.accordion-button.collapsed{
+  color: #fff;
+  font-size: 1.3vw;
+ 
+}
+
+.accordion-button:not(.collapsed){
+  font-size: 1.3vw;
+  color: #fff;
+  
+}
+
+.accordion-item{
+  border: none;
+  background-color: #101522;
+  --bs-accordion-border-color: #feb300;
+}
