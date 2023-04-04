@@ -27,7 +27,9 @@ const InfoSectionLogo = ({
                         <InfoColumn>
                             <TextWrapper>
                             <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
-                            <Heading lightText={lightText}>{headline}</Heading>
+                            <Heading lightText={lightText}>Tere tulemast Eesti</Heading>
+                            <Heading lightText={lightText}></Heading>
+                            <Heading lightText={lightText}> Investeerimiskeskusesse</Heading>
                             <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
                             <Link to='/contact'>
                             <Button big fontBig primary={primary}>

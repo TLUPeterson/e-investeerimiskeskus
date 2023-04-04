@@ -6,7 +6,7 @@ export const homeObjOne = {
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Korduma kippuvad küsimused',
+  topLine: 'Tutvustavad küsimused',
   headline: 'KKK',
   description:'',
   buttonLabel: '',

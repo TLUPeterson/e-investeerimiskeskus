@@ -45,8 +45,8 @@ export const homeObjOne = {
     lightTopLine: false,
     lightText: false,
     lightTextDesc: false,
-    topLine: ``,
-    headline: 'Veiko Trakmann (tegevjuht)',
+    topLine: `(Tegevjuht)`,
+    headline: 'Veiko Trakmann ',
     description:
       `"Olen müügialal töötanud enam kui 10 aastat ning õppinud seda valdkonda hästi tundma ning toime tulema paljude erinevate olukordadega mis kogu ostu-müügi protsessi mõjutab ning parimate lõpptulemusteni viib. Tänaseks hetkeks on mu tehingu ja müügiportfell täidetud just heade, nii kiirete kui ka pikaajaliste ning tulemuslike tehingutega, mis varem või hiljem ennast kasumlikult realiseerivad.
       Oma tööd teen ma alati kire ja hoolivusega, sest mulle meeldib neid protsesse, mis meie tööpäeva mõjutavad, paremaks ja efektiivsemaks muuta.

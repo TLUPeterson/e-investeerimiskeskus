@@ -27,8 +27,9 @@ import { Link } from 'react-router-dom'
                     <InfoRow imgStart={imgStart}>
                         <InfoColumn>
                             <TextWrapper>
-                            <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
+                            
                             <Heading lightText={lightText}>{headline}</Heading>
+                            <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                             <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
                             <Link to={linkto}>
                                 <Button big fontBig primary={primary}>
