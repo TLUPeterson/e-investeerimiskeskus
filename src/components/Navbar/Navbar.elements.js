@@ -30,16 +30,24 @@ export const NavLogo = styled(Link)`
     text-decoration: none;
     font-size: 1.5rem;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-
+    width: 100%;
     &:hover {
         color: #feb300;
     }
+
+    @media (min-width: 320px) and (max-width: 580px) {
+        font-size: 1.2rem;
+      }
 `
 
-export const NavIcon = styled(FaMagento)`
+export const NavIcon = styled.img`
     margin-right: 0.5rem;
+    max-width: 4vw;
+    @media (min-width: 320px) and (max-width: 580px) {
+        max-width:12vw;
+      }
 
 `
 

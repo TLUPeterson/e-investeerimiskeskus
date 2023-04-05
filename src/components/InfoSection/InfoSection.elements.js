@@ -8,6 +8,10 @@ export const InfoSec = styled.div`
     padding-top: 20vh;
     padding-bottom: 20vh;
     background: ${({lightBg}) => (lightBg ? '#fff' : '#101522')};
+    @media (min-width: 320px) and (max-width: 580px) {
+      font-size: 8vw;
+      padding-top: 1vh;
+    }
 `
 
 export const InfoRow = styled.div`
@@ -86,6 +90,9 @@ export const Heading = styled.h1`
   line-height: 1.1;
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#1c2237')};
+  @media (min-width: 320px) and (max-width: 580px) {
+    padding-bottom: 0vh;
+  }
 `;
 
 export const Subtitle = styled.p`

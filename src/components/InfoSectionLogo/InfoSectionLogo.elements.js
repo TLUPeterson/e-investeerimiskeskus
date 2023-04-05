@@ -57,6 +57,13 @@ export const ImgWrapper = styled.div`
   max-width: 555px;
   display: flex;
   justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end')};
+
+  @media (min-width: 480px) and (max-width: 1200px) {
+    
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+  }
 `;
 
 export const TopLine = styled.div`
@@ -75,6 +82,15 @@ export const Img = styled.img`
   vertical-align: middle;
   display: inline-block;
   padding-bottom: 5vh;
+
+  @media (min-width: 480px) and (max-width: 1200px) {
+    max-width: 80%;
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    max-width: 100%;
+    justify-content: center;
+  }
 `;
 
 export const Heading = styled.h1`
@@ -83,6 +99,15 @@ export const Heading = styled.h1`
   line-height: 1.1;
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#1c2237')};
+
+  @media (min-width: 580px) and (max-width: 1200px) {
+    max-width: 8vw;
+  }
+
+  @media (min-width: 320px) and (max-width: 580px) {
+    font-size: 8vw;
+    padding-bottom: 2vh;
+  }
 `;
 
 export const Subtitle = styled.p`

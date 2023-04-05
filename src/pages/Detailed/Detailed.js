@@ -2,7 +2,7 @@ import React from 'react';
 import { DetailedSection } from '../../components/';
 import { homeObjOne } from './Data';
 
-function Detailed() {
+const Detailed = () =>  {
   return (
     <>
       <DetailedSection {...homeObjOne} />

@@ -7,14 +7,15 @@ import { Nav,
     NavItem,
     NavLinks,
     NavItemBtn,
-    NavBtnLink
+    NavBtnLink,
+    NavIcon
 } from './Navbar.elements'
 import { FaTimes, FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib'
 import { Button } from '../../globalStyles';
 
 
-function Navbar() {
+const  Navbar = () => {
 
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
@@ -65,8 +66,7 @@ function Navbar() {
             <Nav>
                 <NavbarContainer>
                     <NavLogo to='/'> 
-                        {/* <img alt='Logo' style={{maxHeight: '8vh'}} src='images/investlogomin.svg'></img> */}
-                        {/* <NavIcon /> */}
+                        <NavIcon alt='Logo' src='images/logotest.svg' />
                             Eesti Investeerimiskeskus
                     </NavLogo>
                     <HamburgerIcon onClick={handleClick}>

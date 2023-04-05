@@ -73,6 +73,11 @@ export const FooterLinksContainer = styled.div`
   @media screen and (max-width: 820px) {
     padding-top: 32px;
   }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    max-width: 2vw;
+    font-size: 6vw;
+  }
 `;
 
 export const FooterLinksWrapper = styled.div`
